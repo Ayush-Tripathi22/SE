@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayush 26848</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .catalog-container {
+            text-align: center;
+            max-width: 800px;
+            width: 100%;
+        }
+
+        .catalog {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+            align-items: flex-start;
+        }
+
+        .product {
+            background-color: #fff;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            text-align: center;
+        }
+
+        .product img {
+            width: 100%;
+            border-radius: 5px;
+        }
+
+        .product h2 {
+            font-size: 1.2em;
+            margin-top: 10px;
+        }
+
+        .product p {
+            font-size: 0.9em;
+            color: #666;
+            margin-bottom: 5px;
+        }
+
+        .add-to-cart {
+            margin-top: 10px;
+        }
+
+        .add-to-cart button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .add-to-cart button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="catalog-container">
+        <h1>Catalog</h1>
+        <div class="catalog">
+            <div class="product">
+                <img src="headphone.png" alt="Product 1">
+                <h2>Product 1</h2>
+                <p>Description of Product 1.</p>
+                <p>$99.99</p>
+                <div class="add-to-cart">
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+            <div class="product">
+                <img src="Airpods1.jpg" alt="Product 2">
+                <h2>Product 2</h2>
+                <p>Description of Product 2.</p>
+                <p>$149.99</p>
+                <div class="add-to-cart">
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+            <!-- Add more products as needed -->
+        </div>
+    </div>
+</body>
+</html>
